@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDP Vs. Violent Crime Over Time</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-dark">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-info">
+        <a class="navbar-brand" href="..\index.html" style="color: black">
+            <img src="..\resources\assets\images\government-icon.png" alt="government-icon" style="width: 60px"> Government Trends
+        </a>
+        <style>.navbar-brand{
+            font-size: 30px
+            ;font-weight: bold
+            }
+        </style>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <style>.navbar-collapse{
+                font-weight: bold
+                }
+            </style>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="..\index.html">Home</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analyses</a>
+                    <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="..\html\page1.html">Counties by Winning Party</a>
+                        <a class="dropdown-item" href="..\html\page2.html">GDP Vs. Violent Crime Over Time</a>
+                        <a class="dropdown-item" href="..\html\page3.html">County Party Winning Trends</a>
+                        <a class="dropdown-item" href="..\html\page4.html">Crime Rate per 100k Vs. Personal Income</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="..\html\visualizations.html">Visualizations</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tables</a>
+                    <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="..\html\tablepage1.html">Incumbency Analysis</a>
+                        <a class="dropdown-item" href="..\html\tablepage2.html">Voter Turnout</a>
+                        <!-- <a class="dropdown-item" href="html\test.html">Violent Crime Vs. Population</a> -->
+                        <!-- <a class="dropdown-item" href="html\test.html">Crime Rate per 100k Vs. Personal Income</a> -->
+                    </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- summary -->
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row bg-gray text-light">
+            <div class="col-sm-7">
+                <h1 style="font-weight: bold">GDP Vs. Violent Crime Over Time</h1>
+                <hr size="1" style=border-color:white>
+                <a target="_blank" href="..\html\1.-plotly\gdp-vs-canvotes-vs-time.html">
+                    <div class="media">
+                        <img src="..\resources\assets\images\Fig2.png" class="media-object offset-1" alt="Fig1" style="width:540px">
+                    </div>
+                </a>    
+                <br>
+                <div class="container">
+                    The violent crime rate per 100k people has generally gone down in Miami-Dade County  between 2002 and 2016, this has translated to a smaller margin of victory among various presidential, congressional and senatorial races, favoring the idea that urban areas tend to vote republican during times of high crime. 
+                    In recent years, democrats have won more races overall in Miami-Dade County, while republicans tend to have more votes in the races they win. 
+                    It seems that democrats seem to win congressional races and republicans win senatorial and presidential races, lending to the idea that there are many pockets of democratic areas within the county.
+                    
+                </div>
+            </div>
+
+            <!-- visualizations -->
+            <div class="col-sm-5">
+                <h1 style="font-weight: bold">Visualizations</h1>
+                <hr size="1" style=border-color:white>
+                <div class="row container">
+                    <div class="card border" style="border-width: 3px">
+                        <div class="col">
+                            <a href="..\html\page1.html">
+                                <div class="media">
+                                    <img src="..\resources\assets\images\Fig1.png" class="media-object" alt="Fig1" style="width:155px"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card border-danger offset-1" style="border-width: 3px">
+                        <div class="col">
+                            <a href="..\html\page2.html">
+                                <div class="media">
+                                    <img src="..\resources\assets\images\Fig2.png" class="media-object" alt="Fig2" style="width:155px"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row container">
+                    <div class="card border" style="border-width: 3px">
+                        <div class="col">
+                            <a href="..\html\page3.html">
+                                <div class="media">
+                                    <img src="..\resources\assets\images\Fig3.png" class="media-object" alt="Fig3" style="width:155px"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card border offset-1" style="border-width: 3px">
+                        <div class="col">
+                            <a href="..\html\page4.html">
+                                <div class="media">
+                                    <img src="..\resources\assets\images\Fig4.png" class="media-object" alt="Fig4" style="width:155px"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer font-small fixed-bottom bg-light text-dark">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="..\index.html">laplacef & fabioisaza</a>
+        </div>
+    </footer>
+</body>
+</html>

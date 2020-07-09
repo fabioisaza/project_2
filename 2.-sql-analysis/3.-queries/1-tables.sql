@@ -1,0 +1,180 @@
+-- CREATE TABLE general_election2000 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2002 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2004 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2006 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2008 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2010 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2012 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2014 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2016 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
+-- CREATE TABLE general_election2018 (
+-- 	ElectionDate date
+-- 	,	PartyCode varchar(5)
+-- 	,	PartyName varchar
+-- 	,	RaceCode varchar(5)
+-- 	,	RaceName varchar
+-- 	,	CountyCode varchar(5)
+-- 	,	CountyName varchar
+-- 	,	Juris1num varchar(5)
+-- 	,	Juris2num varchar(5)
+-- 	,	Precincts int
+-- 	,	PrecinctsReporting int
+-- 	,	CanNameLast varchar
+-- 	,	CanNameFirst varchar
+-- 	,	CanNameMiddle varchar
+-- 	,	CanVotes int
+-- );
+
